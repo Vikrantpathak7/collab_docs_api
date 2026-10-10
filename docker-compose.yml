@@ -1,0 +1,15 @@
+services:
+  db:
+    image: postgres:16
+    container_name: collabdocs-db
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    ports:
+      - "5433:5432"
+    volumes:
+      - collabdocs_pgdata:/var/lib/postgresql/data
+
+volumes:
+  collabdocs_pgdata:
