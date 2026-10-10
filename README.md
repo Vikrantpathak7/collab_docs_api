@@ -4,7 +4,7 @@ Backend API for CollabDocs, a simplified Notion / Google Docs: workspaces, role-
 versioned documents, threaded comments, tags and an audit log.
 Built with Django, Django REST Framework and PostgreSQL. Postman is the client.
 
-**Demo video:** <paste your Loom / Google Drive link here>
+**Demo video:** https://drive.google.com/file/d/1imPq8sZAm64CZ19vmEhCc0JtGmcXl0Ac/view?usp=sharing
 
 ## Setup
 
